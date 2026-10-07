@@ -2,7 +2,7 @@ import { atom, read, update } from "mods"
 import page from "./page.html"
 
 const state = atom({ plugin: "arena", key: "session" }, {
-  open: false, ready: false, name: "Wanderer", server: "ws://localhost:8787",
+  open: false, ready: false, name: "Wanderer", server: "wss://mods-arena.onrender.com",
   record: { wins: 0, losses: 0 }, working: false,
 })
 const post = async ($) => {
