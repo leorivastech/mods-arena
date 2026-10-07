@@ -1,0 +1,6 @@
+node_modules/
+shots/
+BRIEF.md
+REPORT.md
+hook-check.mjs
+test-real.mjs
